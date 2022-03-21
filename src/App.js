@@ -15,6 +15,8 @@ const App = () => {
     });
   }, []);
 
+  //event to capture the input value change as well as filtering the state values
+
   const filterChange = (e) => {
     setFiltredList(
       students.filter((student) => {
