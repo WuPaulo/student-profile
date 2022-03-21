@@ -3,7 +3,6 @@ import React from "react";
 const Students = ({ studentData }) => {
   return (
     <div className="students">
-      <input type="text" placeholder="Search by name" />
       {/* mapping out data from passed prop */}
       {studentData.map((student) => {
         return (
