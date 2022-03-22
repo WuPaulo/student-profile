@@ -13,11 +13,6 @@ code {
     monospace;
 }
 
-* {
-  padding: 0;
-  margin: 0;
-}
-
 /* part 2 styling */
 
 .students {
@@ -43,6 +38,7 @@ code {
   display: flex;
   border: 1px solid #efedf0;
   list-style: none;
+  position: relative;
 }
 
 .studentPic {
@@ -85,4 +81,22 @@ input[type="text"]:hover,
 input[type="text"]:focus {
   outline: none;
   border-bottom: 1px solid rgb(0, 0, 0);
+}
+
+/* part 4 button styling */
+
+.btn {
+  position: absolute;
+  right: 3%;
+  top: 8%;
+  font-size: 50px;
+  background-color: Transparent;
+  background-repeat: no-repeat;
+  border: none;
+  color: #949494;
+}
+
+.btn:hover {
+  color: black;
+  cursor: pointer;
 }

@@ -33,8 +33,7 @@ const App = () => {
   //component that renders the content to our app
   return (
     <div>
-      <input type="text" placeholder="Search by name" onChange={filterChange} />
-      <Students studentData={filteredList} />
+      <Students studentData={filteredList} onChanges={filterChange} />
     </div>
   );
 };
